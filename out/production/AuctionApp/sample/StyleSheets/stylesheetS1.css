@@ -1,0 +1,136 @@
+
+
+.table-column{
+-fx-font-size : 70;
+-fx-font-weight: bold;
+
+
+
+}
+
+.table-view .corner{
+-fx-background-color: #803380;
+}
+
+
+.table-view .table-cell{
+-fx-text-fill: green;
+}
+
+.table-view .table-cell: odd{
+-fx-background-color: #D9B3D9;
+
+}
+
+.table-view .table-cell: even{
+-fx-background-color: #ADEBAD;
+-fx-text-fill: #A64DA6;
+}
+
+.table-view .column-header {
+-fx-background-color:#803380 ;
+
+}
+
+.table-view .column-header-background .filler {
+-fx-background-color:#803380 ;
+
+}
+
+
+.table-view .virtual-flow .scroll-bar: vertical .thumb{
+-fx-background-color: #803380;
+
+}
+
+.table-view .virtual-flow .scroll-bar: vertical .track{
+-fx-background-color: #CC99CC;
+
+
+}
+
+.table-view .virtual-flow .scroll-bar: vertical .track-background{
+-fx-background-color: #803380;
+}
+
+.table-view .virtual-flow .scroll-bar: horizontal .thumb{
+-fx-background-color: #803380;
+}
+
+
+.table-view .virtual-flow .scroll-bar: horizontal .track{
+-fx-background-color: #CC99CC;
+}
+
+.table-view .virtual-flow .scroll-bar: horizontal .track-background{
+-fx-background-color: #803380;
+}
+
+.root{
+
+-fx-background-color: #330033;
+
+ }
+
+ .text-field{
+ -fx-background-color: #ADEBAD;
+ }
+
+
+ .text-field: focused{
+ -fx-background-color: #D9B3D9;
+ }
+
+ .text-input{
+-fx-font-weight: bold;
+ }
+
+.label{
+ -fx-text-fill: #32CD32;
+}
+
+
+
+.combo-box .list-cell{
+-fx-background-color: #ADEBAD;
+
+ -fx-font-weight: bold;
+}
+
+.combo-box .list-cell:filled{
+-fx-background-color: #D9B3D9;
+-fx-text-fill: black;
+ -fx-font-weight: bold;
+}
+
+.combo-box .list-cell:hover{
+-fx-background-color: #D9B3D9;
+-fx-text-fill: #32CD32;
+ -fx-font-weight: bold;
+}
+
+.combo-box-base{
+-fx-background-color: #D9B3D9;
+ -fx-text-fill: #32CD32;
+ -fx-font-weight: bold;
+}
+
+.combo-box-base:focused{
+-fx-background-color: #D9B3D9;
+ -fx-text-fill: #32CD32;
+ -fx-font-weight: bold;
+}
+
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover{
+-fx-background-color: #D9B3D9;
+ -fx-text-fill: #32CD32;
+ -fx-font-weight: bold;
+}
+
+.button{
+-fx-background-color: #ADEBAD;
+-fx-font-weight: bold;
+-fx-text-fill: purple;
+}
+
